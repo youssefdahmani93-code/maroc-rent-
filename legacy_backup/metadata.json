@@ -1,0 +1,5 @@
+{
+  "name": "Go Rent",
+  "description": "Application professionnelle de gestion d'agences de location de voitures au Maroc (Flotte, Réservations, Maintenance, KPI).",
+  "requestFramePermissions": []
+}
