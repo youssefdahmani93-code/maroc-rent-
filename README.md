@@ -76,4 +76,52 @@ Vous devriez voir la page de connexion de GoRent. Vous pouvez vous connecter ave
     ```sh
     docker-compose restart
     ```
-# go-rent
+*   **Pour redémarrer l'application (si elle est déjà en cours d'exécution) :**
+    ```sh
+    docker-compose restart
+    ```
+
+---
+
+## 🚀 Déploiement en Production
+
+Pour déployer GoRent sur GitHub et Vercel, consultez le guide complet de déploiement :
+
+📖 **[Guide de Déploiement](DEPLOYMENT.md)**
+
+Le guide couvre :
+- Configuration de la base de données Neon (PostgreSQL)
+- Déploiement du frontend sur Vercel
+- Déploiement du backend sur Railway
+- Configuration des variables d'environnement
+- Dépannage et support
+
+### Démarrage Rapide
+
+1. **Base de données** : Créez un compte sur [Neon](https://neon.tech)
+2. **GitHub** : Poussez votre code sur GitHub
+3. **Frontend** : Déployez sur [Vercel](https://vercel.com)
+4. **Backend** : Déployez sur [Railway](https://railway.app)
+
+---
+
+## 📁 Structure du Projet
+
+```
+go-rent/
+├── frontend/          # Application React/Vite
+├── backend/           # API Node.js/Express
+├── docker/            # Configuration Docker
+├── docs/              # Documentation
+├── DEPLOYMENT.md      # Guide de déploiement
+└── README.md          # Ce fichier
+```
+
+---
+
+## 🛠️ Technologies Utilisées
+
+- **Frontend** : React, Vite, TailwindCSS
+- **Backend** : Node.js, Express, Sequelize
+- **Base de données** : PostgreSQL
+- **Déploiement** : Vercel (Frontend), Railway (Backend), Neon (Database)
